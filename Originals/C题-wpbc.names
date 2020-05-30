@@ -1,0 +1,63 @@
+这个数据库也可以通过UW CS FTP服务器获得：
+
+
+ftp ftp.cs.wisc.edu文件
+
+cd数学程序/cpo数据集/machine learn/WPBC/
+
+
+1: 病例数：198
+
+
+2: 属性指标：34（ID，outcome，32个实值输入特性）
+
+
+3：属性指标的相关信息
+
+
+1） 身份证号码 （ID number）
+
+2） 结果（R=复发，N=无复发）（ Outcome）
+
+3） 时间（如果字段2=R，则为复发时间；如果字段2=N，则为无病时间）（Time）
+
+4-33）每个细胞核计算10个实值特征：
+
+
+a） 半径 （ radius）
+
+b） 纹理 （texture）
+
+c） 周长 （perimeter）
+
+d） 面积 （area）
+
+e） 平滑度（smoothness）
+
+f） 压实度（compactness）
+
+g） 凹度（concavity）
+
+h） 凹点（concave points）
+
+i） 对称性 （symmetry ）
+
+j） 碎形维度（ fractal dimension）
+
+对每个图像计算这些特征的平均值、标准误差和“最差”或最大值（三个最大值的平均值），得到30个特征。例如，指标4是平均半径，字段14是半径的标准偏差，字段24是最差的半径。
+
+
+34）肿瘤大小-切除肿瘤的直径（厘米）（diameter of the excised tumor in centimeters）
+
+35) 淋巴结状态(Lymph node status)
+
+
+
+4：类的分布：151名无反应者，47名复发者。
+
+
+
+
+
+
+
